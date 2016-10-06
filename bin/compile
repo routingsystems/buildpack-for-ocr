@@ -29,7 +29,7 @@ then
 
    done
 fi
-
+cp -rp $BUILD_DIR/tessdata $TESSERACT_OCR_DIR
 echo "Building runtime environment for Tesseract-OCR"
 mkdir -p $BUILD_DIR/.profile.d
 echo "export PATH=\"$TESSERACT_OCR_DIR/bin:\$PATH\"" > $ENVSCRIPT
