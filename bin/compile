@@ -35,7 +35,7 @@ echo $3
 ls -al tessdata
 #cp -rp tessdata $TESSERACT_OCR_DIR
 #mkdir $TESSERACT_OCR_DIR/tessdata
-mv tessdata/* INSTALL_DIR_TRAINING_DATA/tessdata
+mv tessdata/* INSTALL_DIR_TRAINING_DATA
 ls -al tessdata
 echo "Building runtime environment for Tesseract-OCR"
 mkdir -p $BUILD_DIR/.profile.d
