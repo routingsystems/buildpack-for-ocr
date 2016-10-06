@@ -29,6 +29,9 @@ then
    done
 fi
 echo TESSERACT_OCR_DIR
+echo $1
+echo $2
+echo $3
 cp -rp $BUILD_DIR/tessdata $TESSERACT_OCR_DIR
 echo "Building runtime environment for Tesseract-OCR"
 mkdir -p $BUILD_DIR/.profile.d
